@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationInsightsResourceId>/subscriptions/e190d8bd-ed98-416b-b5bc-477b07af4ce2/resourceGroups/SplunkPOC/providers/microsoft.insights/components/SplunkPOCAppInsight</ApplicationInsightsResourceId>
+    <UserSecretsId>338fb7c6-597a-405e-b455-abb39d69f65e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
+
+
+</Project>
